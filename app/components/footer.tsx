@@ -16,7 +16,7 @@ export default function Footer() {
                         {" "}with ❤️
                     </p>
                     <p className="font-mono text-xs text-white/40">
-                        © {new Date().getFullYear()} games. All rights reserved.
+                        © {new Date().getFullYear()}. All rights reserved.
                     </p>
                 </div>
             </div>
