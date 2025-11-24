@@ -1,0 +1,1 @@
+export type gameStates = "start" | "read" | "choose" | "resultCorrect" | "resultWrong"
