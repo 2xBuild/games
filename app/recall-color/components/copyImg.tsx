@@ -177,7 +177,8 @@ export default function CopyImage({ score, onClose }: CopyImageProps) {
                             textAlign: 'center'
                         }}
                     >
-                        Color Memory Game • {new Date().toLocaleDateString()}
+                        recall-color • {new Date().toLocaleTimeString()}
+                        {/* Time is added to make summary potentially unique. */}
                     </p>
                 </div>
 
