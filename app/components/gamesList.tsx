@@ -5,7 +5,7 @@ export default function GamesList() {
         {
             id: 1,
             name: "Recall Color",
-            description: "Test how cooked your color memory is?",
+            description: "Test your color-memory..",
             icon: "🎨",
             href: "/recall-color"
         },
