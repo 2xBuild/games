@@ -9,6 +9,13 @@ export default function GamesList() {
             icon: "🎨",
             href: "/recall-color"
         },
+        {
+            id: 2,
+            name: "IQ Challenge",
+            description: "Measure your intelligence across multiple domains",
+            icon: "🧠",
+            href: "/iq"
+        },
         // Add more games here in the future
     ];
 
@@ -38,7 +45,7 @@ export default function GamesList() {
                                     </span>
                                 </div>
 
-                               
+
 
                                 {/* Game Info */}
                                 <div className="flex-1 min-w-0">
@@ -49,7 +56,7 @@ export default function GamesList() {
                                         {game.description}
                                     </p>
                                 </div>
-                                 {/* Game Icon */}
+                                {/* Game Icon */}
                                 <div className="flex-shrink-0 w-16 h-16 rounded-xl bg-white/5 border border-white/20 flex items-center justify-center text-2xl">
                                     {game.icon}
                                 </div>
@@ -78,7 +85,7 @@ export default function GamesList() {
                 {/* Coming Soon Section */}
                 <div className="mt-8 p-4 rounded-lg border-2 border-dashed border-white/10 bg-white/5 backdrop-blur-md text-center">
                     <p className="text-md font-mono text-white/40">
-                        More games coming soon... 
+                        More games coming soon...
                     </p>
                 </div>
             </div>

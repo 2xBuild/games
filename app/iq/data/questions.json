@@ -1,0 +1,752 @@
+[
+    {
+        "id": "q1",
+        "category": "math",
+        "difficulty": "easy",
+        "question": "What is 15 + 27?",
+        "options": [
+            "40",
+            "42",
+            "43",
+            "45"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 15,
+        "points": 5
+    },
+    {
+        "id": "q2",
+        "category": "reasoning",
+        "difficulty": "medium",
+        "question": "If all Bloops are Razzies and all Razzies are Lazzies, then all Bloops are definitely Lazzies. True or False?",
+        "options": [
+            "True",
+            "False",
+            "Cannot be determined",
+            "Sometimes true"
+        ],
+        "correctAnswer": 0,
+        "timeLimit": 25,
+        "points": 10
+    },
+    {
+        "id": "q3",
+        "category": "general_knowledge",
+        "difficulty": "easy",
+        "question": "What is the capital of France?",
+        "options": [
+            "London",
+            "Berlin",
+            "Paris",
+            "Madrid"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 15,
+        "points": 5
+    },
+    {
+        "id": "q4",
+        "category": "logic",
+        "difficulty": "hard",
+        "question": "What comes next in the sequence: 2, 6, 12, 20, 30, ?",
+        "options": [
+            "38",
+            "40",
+            "42",
+            "44"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 35,
+        "points": 15
+    },
+    {
+        "id": "q5",
+        "category": "math",
+        "difficulty": "medium",
+        "question": "If a train travels 120 km in 2 hours, what is its average speed in km/h?",
+        "options": [
+            "50",
+            "55",
+            "60",
+            "65"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 25,
+        "points": 10
+    },
+    {
+        "id": "q6",
+        "category": "verbal",
+        "difficulty": "easy",
+        "question": "Which word is the odd one out: Dog, Cat, Bird, Table?",
+        "options": [
+            "Dog",
+            "Cat",
+            "Bird",
+            "Table"
+        ],
+        "correctAnswer": 3,
+        "timeLimit": 15,
+        "points": 5
+    },
+    {
+        "id": "q7",
+        "category": "reasoning",
+        "difficulty": "hard",
+        "question": "A bat and ball cost $1.10. The bat costs $1 more than the ball. How much does the ball cost?",
+        "options": [
+            "$0.10",
+            "$0.05",
+            "$0.15",
+            "$0.20"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 35,
+        "points": 15
+    },
+    {
+        "id": "q8",
+        "category": "general_knowledge",
+        "difficulty": "medium",
+        "question": "Who painted the Mona Lisa?",
+        "options": [
+            "Vincent van Gogh",
+            "Leonardo da Vinci",
+            "Pablo Picasso",
+            "Michelangelo"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 25,
+        "points": 10
+    },
+    {
+        "id": "q9",
+        "category": "logic",
+        "difficulty": "medium",
+        "question": "If 5 machines can make 5 widgets in 5 minutes, how long would it take 100 machines to make 100 widgets?",
+        "options": [
+            "5 minutes",
+            "20 minutes",
+            "100 minutes",
+            "500 minutes"
+        ],
+        "correctAnswer": 0,
+        "timeLimit": 25,
+        "points": 10
+    },
+    {
+        "id": "q10",
+        "category": "math",
+        "difficulty": "hard",
+        "question": "What is 15% of 200?",
+        "options": [
+            "25",
+            "30",
+            "35",
+            "40"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 35,
+        "points": 15
+    },
+    {
+        "id": "q11",
+        "category": "logic",
+        "difficulty": "easy",
+        "question": "Which number should come next: 1, 4, 9, 16, 25, ?",
+        "options": [
+            "30",
+            "32",
+            "36",
+            "40"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 15,
+        "points": 5
+    },
+    {
+        "id": "q12",
+        "category": "verbal",
+        "difficulty": "medium",
+        "question": "What is the opposite of \"generous\"?",
+        "options": [
+            "Selfish",
+            "Kind",
+            "Wealthy",
+            "Poor"
+        ],
+        "correctAnswer": 0,
+        "timeLimit": 25,
+        "points": 10
+    },
+    {
+        "id": "q13",
+        "category": "general_knowledge",
+        "difficulty": "hard",
+        "question": "In which year did World War II end?",
+        "options": [
+            "1943",
+            "1944",
+            "1945",
+            "1946"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 35,
+        "points": 15
+    },
+    {
+        "id": "q14",
+        "category": "reasoning",
+        "difficulty": "easy",
+        "question": "If today is Monday, what day will it be in 10 days?",
+        "options": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+        ],
+        "correctAnswer": 3,
+        "timeLimit": 15,
+        "points": 5
+    },
+    {
+        "id": "q15",
+        "category": "math",
+        "difficulty": "medium",
+        "question": "What is the square root of 144?",
+        "options": [
+            "10",
+            "11",
+            "12",
+            "13"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 25,
+        "points": 10
+    },
+    {
+        "id": "q16",
+        "category": "logic",
+        "difficulty": "hard",
+        "question": "A farmer has 17 sheep. All but 9 die. How many are left?",
+        "options": [
+            "8",
+            "9",
+            "0",
+            "17"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 35,
+        "points": 15
+    },
+    {
+        "id": "q17",
+        "category": "verbal",
+        "difficulty": "easy",
+        "question": "Which word means the same as \"happy\"?",
+        "options": [
+            "Sad",
+            "Joyful",
+            "Angry",
+            "Tired"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 15,
+        "points": 5
+    },
+    {
+        "id": "q18",
+        "category": "general_knowledge",
+        "difficulty": "medium",
+        "question": "What is the largest planet in our solar system?",
+        "options": [
+            "Saturn",
+            "Jupiter",
+            "Neptune",
+            "Uranus"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 25,
+        "points": 10
+    },
+    {
+        "id": "q19",
+        "category": "reasoning",
+        "difficulty": "hard",
+        "question": "If you overtake the person in second place in a race, what position are you in?",
+        "options": [
+            "First",
+            "Second",
+            "Third",
+            "Fourth"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 35,
+        "points": 15
+    },
+    {
+        "id": "q20",
+        "category": "math",
+        "difficulty": "easy",
+        "question": "What is 8 × 7?",
+        "options": [
+            "54",
+            "56",
+            "58",
+            "60"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 15,
+        "points": 5
+    },
+    {
+        "id": "q21",
+        "category": "logic",
+        "difficulty": "medium",
+        "question": "Complete the pattern: A, C, E, G, ?",
+        "options": [
+            "H",
+            "I",
+            "J",
+            "K"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 25,
+        "points": 10
+    },
+    {
+        "id": "q22",
+        "category": "verbal",
+        "difficulty": "hard",
+        "question": "Which word is spelled correctly?",
+        "options": [
+            "Occassion",
+            "Occasion",
+            "Ocassion",
+            "Ocasion"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 35,
+        "points": 15
+    },
+    {
+        "id": "q23",
+        "category": "general_knowledge",
+        "difficulty": "easy",
+        "question": "How many continents are there?",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 15,
+        "points": 5
+    },
+    {
+        "id": "q24",
+        "category": "reasoning",
+        "difficulty": "medium",
+        "question": "Mary's father has 5 daughters: Nana, Nene, Nini, Nono. What is the fifth daughter's name?",
+        "options": [
+            "Nunu",
+            "Mary",
+            "Nana",
+            "Nina"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 25,
+        "points": 10
+    },
+    {
+        "id": "q25",
+        "category": "math",
+        "difficulty": "hard",
+        "question": "If x + 5 = 12, what is x?",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 35,
+        "points": 15
+    },
+    {
+        "id": "q26",
+        "category": "logic",
+        "difficulty": "easy",
+        "question": "What comes next: 2, 4, 8, 16, ?",
+        "options": [
+            "20",
+            "24",
+            "28",
+            "32"
+        ],
+        "correctAnswer": 3,
+        "timeLimit": 15,
+        "points": 5
+    },
+    {
+        "id": "q27",
+        "category": "verbal",
+        "difficulty": "medium",
+        "question": "What is an antonym for \"ancient\"?",
+        "options": [
+            "Old",
+            "Modern",
+            "Historic",
+            "Traditional"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 25,
+        "points": 10
+    },
+    {
+        "id": "q28",
+        "category": "general_knowledge",
+        "difficulty": "hard",
+        "question": "Who wrote \"Romeo and Juliet\"?",
+        "options": [
+            "Charles Dickens",
+            "William Shakespeare",
+            "Jane Austen",
+            "Mark Twain"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 35,
+        "points": 15
+    },
+    {
+        "id": "q29",
+        "category": "reasoning",
+        "difficulty": "easy",
+        "question": "If all roses are flowers and some flowers fade quickly, can we say all roses fade quickly?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe",
+            "Sometimes"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 15,
+        "points": 5
+    },
+    {
+        "id": "q30",
+        "category": "math",
+        "difficulty": "medium",
+        "question": "What is 25% of 80?",
+        "options": [
+            "15",
+            "20",
+            "25",
+            "30"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 25,
+        "points": 10
+    },
+    {
+        "id": "q31",
+        "category": "logic",
+        "difficulty": "hard",
+        "question": "A clock shows 3:15. What is the angle between the hour and minute hands?",
+        "options": [
+            "0°",
+            "7.5°",
+            "15°",
+            "22.5°"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 35,
+        "points": 15
+    },
+    {
+        "id": "q32",
+        "category": "verbal",
+        "difficulty": "easy",
+        "question": "Which word does not belong: Apple, Banana, Carrot, Orange?",
+        "options": [
+            "Apple",
+            "Banana",
+            "Carrot",
+            "Orange"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 15,
+        "points": 5
+    },
+    {
+        "id": "q33",
+        "category": "general_knowledge",
+        "difficulty": "medium",
+        "question": "What is the chemical symbol for gold?",
+        "options": [
+            "Go",
+            "Gd",
+            "Au",
+            "Ag"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 25,
+        "points": 10
+    },
+    {
+        "id": "q34",
+        "category": "reasoning",
+        "difficulty": "hard",
+        "question": "In a certain code, CAT is written as 3120. How is DOG written?",
+        "options": [
+            "4157",
+            "41518",
+            "4158",
+            "41517"
+        ],
+        "correctAnswer": 0,
+        "timeLimit": 35,
+        "points": 15
+    },
+    {
+        "id": "q35",
+        "category": "math",
+        "difficulty": "easy",
+        "question": "What is 100 - 37?",
+        "options": [
+            "61",
+            "62",
+            "63",
+            "64"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 15,
+        "points": 5
+    },
+    {
+        "id": "q36",
+        "category": "logic",
+        "difficulty": "medium",
+        "question": "If A = 1, B = 2, C = 3, what is the sum of CAB?",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 25,
+        "points": 10
+    },
+    {
+        "id": "q37",
+        "category": "verbal",
+        "difficulty": "hard",
+        "question": "Choose the correctly punctuated sentence:",
+        "options": [
+            "Its a beautiful day",
+            "It's a beautiful day",
+            "Its' a beautiful day",
+            "Its a beautiful day"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 35,
+        "points": 15
+    },
+    {
+        "id": "q38",
+        "category": "general_knowledge",
+        "difficulty": "easy",
+        "question": "What is the capital of Japan?",
+        "options": [
+            "Beijing",
+            "Seoul",
+            "Tokyo",
+            "Bangkok"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 15,
+        "points": 5
+    },
+    {
+        "id": "q39",
+        "category": "reasoning",
+        "difficulty": "medium",
+        "question": "Which number is the odd one out: 2, 4, 6, 9, 10?",
+        "options": [
+            "2",
+            "4",
+            "9",
+            "10"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 25,
+        "points": 10
+    },
+    {
+        "id": "q40",
+        "category": "math",
+        "difficulty": "hard",
+        "question": "What is 12²?",
+        "options": [
+            "124",
+            "134",
+            "144",
+            "154"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 35,
+        "points": 15
+    },
+    {
+        "id": "q41",
+        "category": "logic",
+        "difficulty": "easy",
+        "question": "What is the next letter: O, T, T, F, F, S, S, ?",
+        "options": [
+            "E",
+            "N",
+            "T",
+            "S"
+        ],
+        "correctAnswer": 0,
+        "timeLimit": 15,
+        "points": 5
+    },
+    {
+        "id": "q42",
+        "category": "verbal",
+        "difficulty": "medium",
+        "question": "What does \"benevolent\" mean?",
+        "options": [
+            "Cruel",
+            "Kind",
+            "Neutral",
+            "Angry"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 25,
+        "points": 10
+    },
+    {
+        "id": "q43",
+        "category": "general_knowledge",
+        "difficulty": "hard",
+        "question": "What is the smallest prime number?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 35,
+        "points": 15
+    },
+    {
+        "id": "q44",
+        "category": "reasoning",
+        "difficulty": "easy",
+        "question": "If 2 + 2 = 4, and 3 + 3 = 6, what is 4 + 4?",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 15,
+        "points": 5
+    },
+    {
+        "id": "q45",
+        "category": "math",
+        "difficulty": "medium",
+        "question": "What is 3/4 as a percentage?",
+        "options": [
+            "65%",
+            "70%",
+            "75%",
+            "80%"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 25,
+        "points": 10
+    },
+    {
+        "id": "q46",
+        "category": "logic",
+        "difficulty": "hard",
+        "question": "How many triangles are in a pentagram (5-pointed star)?",
+        "options": [
+            "5",
+            "10",
+            "15",
+            "20"
+        ],
+        "correctAnswer": 1,
+        "timeLimit": 35,
+        "points": 15
+    },
+    {
+        "id": "q47",
+        "category": "verbal",
+        "difficulty": "easy",
+        "question": "Which is a noun: Run, Quick, Book, Slowly?",
+        "options": [
+            "Run",
+            "Quick",
+            "Book",
+            "Slowly"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 15,
+        "points": 5
+    },
+    {
+        "id": "q48",
+        "category": "general_knowledge",
+        "difficulty": "medium",
+        "question": "How many days are in a leap year?",
+        "options": [
+            "364",
+            "365",
+            "366",
+            "367"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 25,
+        "points": 10
+    },
+    {
+        "id": "q49",
+        "category": "reasoning",
+        "difficulty": "hard",
+        "question": "A is taller than B. C is shorter than B. Who is the tallest?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "Cannot determine"
+        ],
+        "correctAnswer": 0,
+        "timeLimit": 35,
+        "points": 15
+    },
+    {
+        "id": "q50",
+        "category": "math",
+        "difficulty": "easy",
+        "question": "What is 9 + 6?",
+        "options": [
+            "13",
+            "14",
+            "15",
+            "16"
+        ],
+        "correctAnswer": 2,
+        "timeLimit": 15,
+        "points": 5
+    }
+]
