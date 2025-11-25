@@ -19,8 +19,14 @@ export function useIQGame(questions: Question[] = SAMPLE_QUESTIONS) {
 
     // Start the game
     const startGame = useCallback((questionCount: number) => {
+        const shuffledQuestions = [...questions].sort(() => Math.random() - 0.5);
+
         // Select the specified number of questions
-        const questionsToUse = questions.slice(0, Math.min(questionCount, questions.length));
+        const questionsToUse = shuffledQuestions.slice(
+            0,
+            Math.min(questionCount, questions.length)
+        );
+
         setSelectedQuestions(questionsToUse);
 
         setGameState({
@@ -35,53 +41,57 @@ export function useIQGame(questions: Question[] = SAMPLE_QUESTIONS) {
     }, [questions]);
 
     // Submit answer
-    const submitAnswer = useCallback((selectedAnswer: number) => {
-        const currentQuestion = selectedQuestions[gameState.currentQuestionIndex];
-        const timeTaken = Math.floor((Date.now() - questionStartTime) / 1000);
-        const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
+    const submitAnswer = useCallback(
+        (selectedAnswer: number) => {
+            const currentQuestion = selectedQuestions[gameState.currentQuestionIndex];
+            const timeTaken = Math.floor((Date.now() - questionStartTime) / 1000);
+            const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
 
-        // Calculate time multiplier (0.5 to 1.0 based on speed)
-        // Faster responses get higher multipliers, rewarding quick thinking
-        const timeMultiplier = isCorrect
-            ? 0.5 + (0.5 * (gameState.timeRemaining / currentQuestion.timeLimit))
-            : 0;
+            // Calculate time multiplier (0.5 to 1.0 based on speed)
+            // Faster responses get higher multipliers, rewarding quick thinking
+            const timeMultiplier = isCorrect
+                ? 0.5 + 0.5 * (gameState.timeRemaining / currentQuestion.timeLimit)
+                : 0;
 
-        // Apply multiplier to base points for hybrid scoring
-        const pointsEarned = Math.round(currentQuestion.points * timeMultiplier);
+            // Apply multiplier to base points for hybrid scoring
+            const pointsEarned = Math.round(currentQuestion.points * timeMultiplier);
 
-        const answer: UserAnswer = {
-            questionId: currentQuestion.id,
-            selectedAnswer,
-            isCorrect,
-            timeTaken,
-            pointsEarned,
-        };
+            const answer: UserAnswer = {
+                questionId: currentQuestion.id,
+                selectedAnswer,
+                isCorrect,
+                timeTaken,
+                pointsEarned,
+            };
 
-        const newAnswers = [...gameState.answers, answer];
-        const newScore = gameState.score + pointsEarned;
-        const isLastQuestion = gameState.currentQuestionIndex >= selectedQuestions.length - 1;
+            const newAnswers = [...gameState.answers, answer];
+            const newScore = gameState.score + pointsEarned;
+            const isLastQuestion =
+                gameState.currentQuestionIndex >= selectedQuestions.length - 1;
 
-        if (isLastQuestion) {
-            // Game over
-            setGameState({
-                ...gameState,
-                stage: 'results',
-                answers: newAnswers,
-                score: newScore,
-            });
-        } else {
-            // Next question
-            const nextIndex = gameState.currentQuestionIndex + 1;
-            setGameState({
-                ...gameState,
-                currentQuestionIndex: nextIndex,
-                answers: newAnswers,
-                score: newScore,
-                timeRemaining: selectedQuestions[nextIndex].timeLimit,
-            });
-            setQuestionStartTime(Date.now());
-        }
-    }, [gameState, selectedQuestions, questionStartTime]);
+            if (isLastQuestion) {
+                // Game over
+                setGameState({
+                    ...gameState,
+                    stage: 'results',
+                    answers: newAnswers,
+                    score: newScore,
+                });
+            } else {
+                // Next question
+                const nextIndex = gameState.currentQuestionIndex + 1;
+                setGameState({
+                    ...gameState,
+                    currentQuestionIndex: nextIndex,
+                    answers: newAnswers,
+                    score: newScore,
+                    timeRemaining: selectedQuestions[nextIndex].timeLimit,
+                });
+                setQuestionStartTime(Date.now());
+            }
+        },
+        [gameState, selectedQuestions, questionStartTime]
+    );
 
     // Timer countdown
     useEffect(() => {
