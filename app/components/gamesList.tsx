@@ -16,6 +16,13 @@ export default function GamesList() {
             icon: "🧠",
             href: "/iq"
         },
+        {
+            id:3,
+            name: "NextWord",
+            description: "real-time multiplayer word-chaining game",
+            icon: "🔠",
+            href: "https://nextword.void.ac"
+        }
         // Add more games here in the future
     ];
 
